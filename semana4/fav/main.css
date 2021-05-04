@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: space-around;
+}
+
+#navar{
+    justify-content: flex-end;
+}
+ 
+#principal{
+    width: 120px;
+    height: 40px;
+}
