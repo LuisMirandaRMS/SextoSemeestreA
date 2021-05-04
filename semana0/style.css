@@ -1,0 +1,22 @@
+/* //Indicamos que la etiqueta h1 tendra un estilo distinto */
+/* Selector por nombre, es aquel que modificara toda la etiqueta con el nombre que se solicite */
+body{
+    background-color: green;
+}
+h1{
+    font-size: 90px;
+    color: pink;
+}
+
+/* Las clases son selectores con nombres personalizados
+Es recomendable que las clases tengan nombres que describen el elemento
+*/
+.parrafo{
+    font-size: 20px;
+    color: blue;
+}
+/* Los selectores Id, son selectores únicos, solo puede haber uno con el mismo nombre en un HTML */
+#especial{
+    font-size: 100px;
+    color: red;
+}
