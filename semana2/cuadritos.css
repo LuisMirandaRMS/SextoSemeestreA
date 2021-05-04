@@ -1,0 +1,52 @@
+/* selector por clase ., selector por id #, slector por nombre */
+body{
+    border: 2px solid black;
+    display:flex;
+    height: 1000px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.padre {
+    border: 2px solid blue;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hijo {
+    width: 30%;
+    height: 30%;
+    border: 2px solid blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nieto{
+    width: 20%;
+    height: 20%;
+    border: 2px solid brown;
+}
+
+.madre{
+    border: 2px solid red;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hija{
+    width: 30%;
+    height: 30%;
+    border: 2px solid pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
