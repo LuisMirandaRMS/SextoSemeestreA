@@ -1,0 +1,9 @@
+.logo{
+    width: 140px;
+    height: 60px;
+}
+section{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
