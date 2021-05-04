@@ -1,0 +1,39 @@
+/* FlexBox es un modulo de diseño css3 para mejorar la forma en la que hacemos Responsive Design. */
+/* Gracias a FlexBox facilitamos la forma en que posicionamos elementos, es más simple y usamos menos codigo */
+.padre{
+    border: solid 1px black;
+    height: 500px;
+    display: flex;
+    /* 
+    block 
+    wrap  
+    flex
+    */
+    justify-content: space-around;
+    flex-direction: column;
+    /* 
+    row 
+    row-reverse
+    column
+    column-reverse
+    */
+    align-items: flex-end;
+}
+
+.hijo{
+    border: solid 1px #0000ff;
+    height: 30%;
+    width: 30%;
+}
+
+.hija{
+    border: solid 1px #ff6347;
+    height: 30%;
+    width: 30%;
+}
+
+.hijo2{
+    border: solid 1px #ee82ee;
+    height: 30%;
+    width: 30%;
+}
